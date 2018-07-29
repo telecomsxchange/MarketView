@@ -1,6 +1,11 @@
 # MarketView
 Market View Rate API, VoIP Rates API, VoIP Providers and Carriers rates API
 
+# Use Cases
+
+For example TelecomsXChange Slack Chat Bot was created utilizing this API, for more details on Slack Bot read this blog post (http://telecomsxchange.com/blog/telecomsxchange-slack-bot/ )
+
+
 
 ![alt text](https://user-images.githubusercontent.com/26701933/43371800-c99e0456-93a1-11e8-9028-542aabb641aa.png)
 
