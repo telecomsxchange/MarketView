@@ -1,5 +1,4 @@
 <?php
-
 // my login in TCXC
 $api_login ="ENTER YOUR BUYER USER NAME HERE";
 
@@ -26,7 +25,8 @@ $params = array(
                 'prefix' => '962',      // same parameters as web portal accepts
                 'searchform' => '1', // same parameters as web portal accepts
                 'type' => 'CLI',        // same parameters as web portal accepts
-                
+ 		'pager' => 3,
+                'off' => 11               
                 //...
 
                 );
