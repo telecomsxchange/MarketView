@@ -1,8 +1,8 @@
 <?php
-// my login in TCXC
+// TCXC Buyer Username
 $api_login ="ENTER YOUR BUYER USER NAME HERE";
 
-//my API key
+//API key
 $api_key = "ENTER YOUR BUYER API KEY";
 
 // initialising CURL
@@ -25,7 +25,14 @@ $params = array(
                 'prefix' => '962',      // same parameters as web portal accepts
                 'searchform' => '1', // same parameters as web portal accepts
                 'type' => 'CLI',        // same parameters as web portal accepts
- 		'pager' => 3,
+ 		            
+  
+                  /*"pager" &  "off"	required	
+                   “pager” and “off” (should be set or unset both) allow to limit and paginate results. 
+                   "pager” is a limit of the numbers to be returned, “off” is offset.
+                   */
+  
+                'pager' => 3,
                 'off' => 11               
                 //...
 
