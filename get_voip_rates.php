@@ -40,7 +40,7 @@ $params = array(
 
 
 //query against api. URL
-curl_setopt($ch, CURLOPT_URL,"https://members.telecomsxchange.com/$controller.php");
+curl_setopt($ch, CURLOPT_URL,"https://api.telecomsxchange.com/$controller.php");
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS,
 http_build_query($params));
