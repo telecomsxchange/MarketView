@@ -51,4 +51,47 @@ curl_close ($ch);
 //analyze JSON output
 
 echo "$server_output";
+
+/* 
+
+Sample Response - JSON
+
+{
+    "status": "success",
+    "rates": [
+        {
+            "prefix": "96278",
+            "vendor_name": "IDT",
+            "connection_name": "Platinum CLI",
+            "i_tariff": "317",
+            "daily_asr": 14.5228,
+            "weekly_asr": 36.0399,
+            "daily_acd": 209,
+            "weekly_acd": 169,
+            "daily_minutes": 122,
+            "weekly_minutes": 712,
+            "stats_time": "2019-09-24 03:04:38",
+            "i_connection": "315",
+            "effective_from": "09\/14\/19 2:41PM",
+            "price_1": "0.148000",
+            "price_n": "0.148000",
+            "interval_1": "1",
+            "interval_n": "1",
+            "i_vendor": "223",
+            "capacity_limit": "1500",
+            "i_rate": "113424479",
+            "forbidden": "0",
+            "discontinued": "0",
+            "route_type": "CLI",
+            "seller_registration_date": "2014-11-08 20:29:04",
+            "country_code": "jo",
+            "country_name": "Jordan",
+            "description": "Mobile - Umniah",
+            "commision_percent": "0",
+            "mccmnc": "41603",
+            "seller_avg_rating": 3,
+            "seller_reviews": 4,
+            "rateid": 113424479
+        }, */
+
 ?>
