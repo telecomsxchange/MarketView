@@ -27,10 +27,13 @@ $params = array(
                 'type' => 'CLI',        // same parameters as web portal accepts
  		            
   
-                  /*"pager" &  "off"	required	
+                  /*
+                  
+                   "pager" &  "off"	required	
                    “pager” and “off” (should be set or unset both) allow to limit and paginate results. 
                    "pager” is a limit of the numbers to be returned, “off” is offset.
-                   */
+                   
+                  */
   
                 'pager' => 3,
                 'off' => 11               
