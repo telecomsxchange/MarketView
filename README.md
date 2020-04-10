@@ -3,6 +3,11 @@
 # MarketView
 Market View Rate API, VoIP Rates API, VoIP Providers and Carriers rates API
 
+# API Documentation
+
+For most recent API documentation, visit [TCXC API Official Documentation Page](https://documenter.getpostman.com/view/5344044/SVtbPk6K?version=latest#e3ab2e21-a698-452f-b0ef-d59872dbafba)
+
+
 # Use Cases
 
 For example TelecomsXChange Slack Chat Bot was created utilizing this API, for more details on Slack Bot read this blog post (http://telecomsxchange.com/blog/telecomsxchange-slack-bot/ )
