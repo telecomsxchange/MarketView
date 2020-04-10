@@ -60,4 +60,4 @@ Example Response:
   </code>
   
   
- More Details: More details: https://telecomsxchange.freshdesk.com/support/solutions/articles/11000037861-lookup-termination-prefix-rate-beta-
+Read more on [TCXC API docs](https://documenter.getpostman.com/view/5344044/SVtbPk6K?version=latest#e3ab2e21-a698-452f-b0ef-d59872dbafba)
